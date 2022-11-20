@@ -1,0 +1,7 @@
+calculations = input("What calculations u need performed")
+first = None
+second= none
+for value in calculations:
+    if first == None:
+        first = value
+    elif second == None:
