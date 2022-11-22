@@ -32,7 +32,7 @@ while not done:
         players_thirst += 1
         camel_tiredness += 1
         natives_travelled += 9
-    elif user_choice.upper == "C":
+    elif user_choice.upper() == "C":
         miles_travelled += 15
         print("Miles travelled:", miles_travelled)
         players_thirst += 1
